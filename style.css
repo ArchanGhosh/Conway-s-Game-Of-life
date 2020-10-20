@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: rgba(252, 248, 48, 0.938);
+  }
+  #canvas {
+    margin: 0px;
+    background: rgb(255, 255, 255);
+  }
+  .play{
+    position: absolute ;
+    bottom: 50%;
+    right: 50%;
+    top : 44%;
+    left: 46%;
+    color: rgb(255, 238, 5);
+  }
+  a:hover{
+    color: #b69013bb;
+
+  }
