@@ -41,7 +41,7 @@ function randomCells() {
 }
 
 function drawCells() {
-  context.fillStyle = "white";
+  context.fillStyle = "grey";
   context.fillRect(0, 0, resolution, resolution);
   context.fillStyle = "black";
   for (let y = 0; y < resolution; y++) {
