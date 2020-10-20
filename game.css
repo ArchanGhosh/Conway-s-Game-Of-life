@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: rgb(175, 241, 250);
+  }
+#canvas {
+    margin: 0px;
+    background: white;
+}
+.top-bar{
+    margin-top: 1%;
+    margin-right: 10%;
+    text-align: right;
+    margin-bottom: 1%;
+}
+.icon{
+    padding: 1.5%;
+}
+a:hover{
+    color: #a0a0a0;
+
+  }
