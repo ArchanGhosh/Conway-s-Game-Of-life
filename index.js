@@ -1,7 +1,7 @@
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
-const size = 1400;
-const scale = 8;
+const size = 2000;
+const scale = 4;
 const resolution = size / scale;
 
 let cells;
@@ -10,7 +10,7 @@ setup();
 randomCells();
 drawCells();
 
-setInterval(step, 50);
+setInterval(step, 80);
 
 function setup() {
   canvas.width = window.innerWidth;
